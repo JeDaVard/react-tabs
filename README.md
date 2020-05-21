@@ -6,7 +6,7 @@
 
 _Tabs_
 
-`import { Tabs, Tab } from "./Tabs"`
+`import { Tabs, Tab } from "./Tabs/Tabs"`
 
     <Tabs>
     <Tab label={"recommended"} tabName={"Recommended"}>
@@ -26,7 +26,7 @@ _Tabs_
 
 _LinkedTabs_
 
-`import { LinkedTabs, Tab } from "../LinkedTabs/LinkedTabs"`
+`import { LinkedTabs, Tab } from "./LinkedTabs/LinkedTabs"`
 
       <LinkedTabs route={"events"} defaultTab={tabParam}>
         <Tab label={"upcoming"} tabName={"Upcoming"}>
